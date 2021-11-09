@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* margin: 0; */
+    /* border: solid; */
+    /* border-color: black; */
+    /* background-color: red; */
+}
+/* .container */
+.navbar{
+    /* margin:0; */
+    padding: 1% 2% 0% 2%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    /* border: solid; */
+    border-color: #0061A8;
+}
+.logo{
+    /* border: solid; */
+    /* border-color: red; */
+    
+}
+.navRightContainer{
+    /* border: solid; */
+    /* border-color: green; */
+    width: 25%;
+}
+.searchAndLoginContainer{
+    /* border:solid; */
+    /* border-color:red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linkContainer{
+    /* border:solid; */
+    /* border-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: flex-end; */
+}
+.welcomeSection{
+    /* border: solid; */
+    /* border-color: red; */
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.messageContainer{
+    /* border: solid; */
+    /* border-color: green; */
+    width:50%;
+    height: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.welcomeImage{
+    border: solid;
+    border-color: orange;
+    width:50%;
+}
+.cardSection{
+    /* border:solid; */
+    /* border-color: purple; */
+}
