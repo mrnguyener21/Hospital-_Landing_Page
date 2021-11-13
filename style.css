@@ -11,7 +11,7 @@ body{
 /* .container */
 .navbar{
     /* margin:0; */
-    padding: 1% 2% 0% 2%;
+    padding: 1% 10%;
     display:flex;
     justify-content: space-between;
     border-bottom: solid;
@@ -41,12 +41,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* padding: 0% 10%; */
     /* align-content: flex-end; */
 }
 .welcomeSection{
     /* border: solid; */
     /* border-color: red; */
-    height: 80vh;
+    padding: 0 10%;
+    height: 73vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,43 +62,54 @@ body{
     height: 50%;
     display: flex;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
+
 .welcomeImage{
-    border: solid;
+    /* border: solid; */
     border-color: orange;
-    width:50%;
+    width:60%;
 }
 .cardSection{
-    border:solid;
-    border-color: purple;
+    /* border:solid; */
+    /* border-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+.cardContainer{
+    /* border:solid; */
+    /* border-color: purple; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 1% 2% 0% 2%;
+    justify-content: space-around;
+    /* padding: 0% 20%; */
     flex-wrap: wrap;
+    /* flex-basis: auto; */
 
         /* padding: 2px 16px; */
 
 }
 
 .card{
-    border:solid;
+    /* border:solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width:20%;
-    height: 20vh;
-    margin:5%;
+    /* justify-content: space-between; */
+    width:10%;
+    height: 30vh;
+    margin:2% 10%;
     /* height: 25; */
     /* padding: 10% 5%; */
     /* padding:5%; */
 }
 
 .cardImage{
-    width:30%;
+    /* border: solid; */
+    width:100%;
 }
 
 .cardDescription{
