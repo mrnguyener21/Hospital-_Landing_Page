@@ -1,126 +1,77 @@
 body{
     margin:0%;
     padding: 0%;
-    /* displa
-    y: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* margin: 0; */
-    /* border: solid; */
-    /* border-color: black; */
-    /* background-color: red; */
 }
-/* .container */
+
 .navbar{
-    /* margin:0; */
     padding: 3% 5%;
     display:flex;
     justify-content: space-between;
-    /* border-bottom: solid; */
-    /* border: solid; */
-    /* border-color: #0061A8; */
 }
 .logo{
     color:#0061A8;
-    /* border: solid; */
-    /* border-color: red; */
+
     
 }
 .navRightContainer{
-    /* border: solid; */
-    /* border-color: green; */
     width: 25%;
 }
 .searchAndLoginContainer{
-    /* border:solid; */
-    /* border-color:red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .linkContainer{
-    /* border:solid; */
-    /* border-color: orange; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* padding: 0% 10%; */
-    /* align-content: flex-end; */
 }
 .welcomeSection{
-    /* border: solid; */
-    /* border-color: red; */
-    /* padding: 0 10%; */
     margin:0%;
     padding: 0;
-    /* height: 73vh; */
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+
     
 }
 .messageContainer{
-    /* border: solid; */
     background-color: #0061A8;
     color: white;
     margin: 0;
     padding:5% 0 5% 5%;
     width:50%;
-    /* border-color: green; */
-    /* height: auto; */
-    /* height: 70%; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
 }
 
 .welcomeImage{
-    /* border: solid; */
     border-color: orange;
     width:50%;
-    /* height:99%; */
     margin: 0;
-    /* height:70%; */
 }
 .cardSection{
-    /* border:solid; */
-    /* border-color: blue; */
+
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 5%;
 }
 .cardContainer{
-    /* border:solid; */
-    /* border-color: purple; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* padding: 0% 20%; */
     flex-wrap: wrap;
-    /* flex-basis: auto; */
-
-        /* padding: 2px 16px; */
 
 }
 
 .card{
-    /* border:solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width:10%;
     height: 30vh;
     margin:2% 10%;
-    /* height: 25; */
-    /* padding: 10% 5%; */
-    /* padding:5%; */
 }
 
 .cardImage{
-    /* border: solid; */
     width:100%;
 }
 
@@ -128,8 +79,4 @@ body{
     border:solid;
     border-color: blue;
     width: 50%;
-    /* Padding: 100%; */
-    /* padding: 2px 16px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
 }
