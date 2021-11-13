@@ -48,35 +48,43 @@ body{
     margin: 0;
 }
 .cardSection{
-
+    /* border: solid; */
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 5%;
 }
 .cardContainer{
+    /* border: solid; */
+    border-color: blue;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
 
 .card{
+    /* border: solid; */
+    border-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:10%;
-    height: 30vh;
-    margin:2% 10%;
+    justify-content: space-between;
+    width:15%;
+    height: 50vh;
+    margin:3%;
 }
 
 .cardImage{
+    /* border:solid; */
     width:100%;
 }
 
 .cardDescription{
-    border:solid;
+    /* border:solid; */
     border-color: blue;
-    width: 50%;
+    display: flex;
+    text-align: center;
+    /* width: 50%; */
 }
