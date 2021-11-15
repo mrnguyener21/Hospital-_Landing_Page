@@ -1,10 +1,11 @@
 body{
     margin:0%;
     padding: 0%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar{
-    padding: 1% 5% 0 5%;
+    padding: 1% 15%;
     display:flex;
     justify-content: space-between;
 }
@@ -54,7 +55,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 5%;
+    padding: 3% 5%;
 }
 .cardContainer{
     /* border: solid; */
@@ -75,7 +76,7 @@ body{
     /* justify-content: space-between; */
     width:15%;
     /* height: 50vh; */
-    margin:3%;
+    margin:3% 7%;
 }
 
 .cardImage{
@@ -107,8 +108,10 @@ body{
 }
 
 .resourceSection{
-    padding: 0 5%;
+    padding: 2% 15%;
     /* border: solid; */
+    background-color: #0061A8;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,8 +127,8 @@ body{
     /* border:solid; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-bottom: 5%;
+    /* justify-content: center; */
+    /* padding-bottom: 5%; */
 }
 
 .socialMediaContainer{
@@ -134,8 +137,12 @@ body{
     height:75%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    /* justify-content: space-between; */
+}
+.socialMediaImage{
+    width:8%;
+    margin-right:2%;
 }
 
 .rightResourceContainer{
