@@ -11,6 +11,7 @@ body{
 }
 .logo{
     color:#0061A8;
+    font-size: 50px;
 
     
 }
@@ -29,6 +30,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.navBarLink{
+    color: #0061A8;
+}
+
 .welcomeSection{
     margin:0%;
     padding: 0;
@@ -43,6 +48,8 @@ body{
     margin: 0;
     padding:5% 0 5% 5%;
     width:50%;
+    font-size: 25px;
+    text-align: center;
 }
 
 .welcomeImage{
@@ -57,6 +64,12 @@ body{
     flex-direction: column;
     padding: 3% 5%;
 }
+
+.cardTitle{
+    font-size: 40px;
+    color: #0061A8;
+}
+
 .cardContainer{
     /* border: solid; */
     border-color: blue;
@@ -120,15 +133,28 @@ body{
 .leftResourceContainer{
     /* border: solid; */
     /* border-color: blue; */
-    width:40%;
+    width:50%;
 }
 
 .emailContainer{
     /* border:solid; */
+    /* border-color: red; */
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
     /* padding-bottom: 5%; */
+}
+.emailButton{
+    background-color: #0061A8;
+    border: none;
+    /* border-color: #0061A8; */
+    color: white;
+    /* margin-right: 10px; */
+    padding: 15px 25px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
 }
 
 .socialMediaContainer{
@@ -136,19 +162,19 @@ body{
     /* border-color: red; */
     height:75%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: top;
     /* justify-content: space-between; */
 }
 .socialMediaImage{
-    width:8%;
+    width:5%;
     margin-right:2%;
 }
 
 .rightResourceContainer{
     /* border: solid; */
     /* border-color: red; */
-    width:40%;
+    width:50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
