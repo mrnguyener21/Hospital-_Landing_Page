@@ -4,7 +4,7 @@ body{
 }
 
 .navbar{
-    padding: 3% 5%;
+    padding: 1% 5% 0 5%;
     display:flex;
     justify-content: space-between;
 }
@@ -13,15 +13,17 @@ body{
 
     
 }
-.navRightContainer{
-    width: 25%;
-}
+
 .searchAndLoginContainer{
+    width:40%;
+    /* border: solid; */
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 .linkContainer{
+    /* border:solid; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,7 +37,7 @@ body{
     
 }
 .messageContainer{
-    background-color: #0061A8;
+    background-color: #007bff;
     color: white;
     margin: 0;
     padding:5% 0 5% 5%;
