@@ -67,8 +67,8 @@ body{
 }
 
 .card{
-    /* border: solid; */
-    border-color: red;
+    /* border: solid;
+    border-color:#FBE0C4; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,4 +104,69 @@ body{
     font-size: 16px;
     border-radius: 25px;
     /* border: solid; */
+}
+
+.resourceSection{
+    padding: 0 5%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftResourceContainer{
+    /* border: solid; */
+    /* border-color: blue; */
+    width:40%;
+}
+
+.emailContainer{
+    /* border:solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.socialMediaContainer{
+    /* border:solid; */
+    /* border-color: red; */
+    height:75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightResourceContainer{
+    /* border: solid; */
+    /* border-color: red; */
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companyTitle{
+    margin-top:0;
+}
+
+.servicesTitle{
+    margin-top:0;
+}
+
+.resourcesTitle{
+    margin-top:0;
+}
+
+.companyLink{
+    margin:20px 0;
+}
+
+.servicesLink{
+    margin:20px 0;
+}
+
+.resourcesLink{
+    margin:20px 0;
 }
