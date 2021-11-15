@@ -17,21 +17,38 @@ body{
 }
 
 .searchAndLoginContainer{
-    width:40%;
+    width:50%;
     /* border: solid; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    color: #0061A8;
 }
-.linkContainer{
-    /* border:solid; */
+/* .linkContainer{
+    border:solid;
+    border-color: red;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
+    align-items: center;
+    justify-content: space-evenly;
+} */
 .navBarLink{
-    color: #0061A8;
+    /* border:solid; */
+    /* color: #0061A8; */
+}
+.logInContainer{
+    /* border: solid; */
+    width:10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.logInImage{
+    /* border: solid; */
+    width:70%
 }
 
 .welcomeSection{
