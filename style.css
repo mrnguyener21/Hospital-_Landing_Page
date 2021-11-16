@@ -12,52 +12,33 @@ body{
 .logo{
     color:#0061A8;
     font-size: 50px;
-
-    
 }
 
 .searchAndLoginContainer{
     width:45%;
-    /* border: solid; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     color: #0061A8;
 }
-/* .linkContainer{
-    border:solid;
-    border-color: red;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-} */
-.navBarLink{
-    /* border:solid; */
-    /* color: #0061A8; */
-}
 
 .searchContainer{
-    /* border:solid; */
     display: flex;
     justify-content: space-evenly;
     width:30%;
 }
 
 .searchButton{
-    /* border:solid; */
     width:15%;
 }
 
 .searchImage{
-    /* border: solid; */
     border-color: blue;
     width:100%;
 }
 
 .logInContainer{
-    /* border: solid; */
     width:10%;
     height: 100%;
     display: flex;
@@ -66,7 +47,6 @@ body{
     justify-content: center;
 }
 .logInImage{
-    /* border: solid; */
     width:50%
 }
 
@@ -75,8 +55,6 @@ body{
     padding: 0;
     display: flex;
     flex-direction: row;
-
-    
 }
 .messageContainer{
     background-color: #0061A8;
@@ -98,7 +76,6 @@ body{
     margin: 0;
 }
 .cardSection{
-    /* border: solid; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -111,7 +88,6 @@ body{
 }
 
 .cardContainer{
-    /* border: solid; */
     border-color: blue;
     display: flex;
     /* flex-direction: row; */
@@ -121,14 +97,10 @@ body{
 }
 
 .card{
-    /* border: solid;
-    border-color:#FBE0C4; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width:15%;
-    /* height: 50vh; */
     margin:3% 7%;
 }
 
