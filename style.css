@@ -193,14 +193,21 @@ body{
     padding: 15px 25px 15px 0px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 20px;
+    /* justify-content: space-between; */
+    align-items: center;
+
 }
 
+.emailImage{
+width:5%;
+margin-right: 2%;
+}
 .socialMediaContainer{
     /* border:solid; */
     /* border-color: red; */
-    height:75%;
+    height:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
