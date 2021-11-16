@@ -17,7 +17,7 @@ body{
 }
 
 .searchAndLoginContainer{
-    width:50%;
+    width:45%;
     /* border: solid; */
     display: flex;
     flex-direction: row;
@@ -37,18 +37,37 @@ body{
     /* border:solid; */
     /* color: #0061A8; */
 }
+
+.searchContainer{
+    /* border:solid; */
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+}
+
+.searchButton{
+    /* border:solid; */
+    width:15%;
+}
+
+.searchImage{
+    /* border: solid; */
+    border-color: blue;
+    width:100%;
+}
+
 .logInContainer{
     /* border: solid; */
     width:10%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
 }
 .logInImage{
     /* border: solid; */
-    width:70%
+    width:50%
 }
 
 .welcomeSection{
@@ -154,7 +173,7 @@ body{
 .leftResourceContainer{
     /* border: solid; */
     /* border-color: blue; */
-    width:50%;
+    width:40%;
 }
 
 .emailContainer{
