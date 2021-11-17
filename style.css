@@ -105,22 +105,19 @@ body{
 }
 
 .cardImage{
-    /* border:solid; */
     width:100%;
     margin-bottom: 25%;
 }
 
 .cardDescription{
-    /* border:solid; */
     border-color: blue;
     display: flex;
     text-align: center;
     margin-bottom: 10%;
-    /* width: 50%; */
 }
 
 .cardButton{
-    background-color: #0061A8; /* Green */
+    background-color: #0061A8; 
     border: none;
     color: white;
     padding: 15px 25px;
@@ -129,12 +126,10 @@ body{
     display: inline-block;
     font-size: 16px;
     border-radius: 25px;
-    /* border: solid; */
 }
 
 .resourceSection{
     padding: 2% 15%;
-    /* border: solid; */
     background-color: #0061A8;
     color: white;
     display: flex;
@@ -143,31 +138,22 @@ body{
 }
 
 .leftResourceContainer{
-    /* border: solid; */
-    /* border-color: blue; */
     width:40%;
 }
 
 .emailContainer{
-    /* border:solid; */
-    /* border-color: red; */
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
-    /* padding-bottom: 5%; */
 }
 .emailButton{
     background-color: #0061A8;
     border: none;
-    /* border-color: #0061A8; */
     color: white;
-    /* margin-right: 10px; */
     padding: 15px 25px 15px 0px;
     text-align: center;
     text-decoration: none;
     display: flex;
     font-size: 20px;
-    /* justify-content: space-between; */
     align-items: center;
 
 }
@@ -177,13 +163,10 @@ width:5%;
 margin-right: 2%;
 }
 .socialMediaContainer{
-    /* border:solid; */
-    /* border-color: red; */
     height:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* justify-content: space-between; */
 }
 .socialMediaImage{
     width:5%;
@@ -191,8 +174,6 @@ margin-right: 2%;
 }
 
 .rightResourceContainer{
-    /* border: solid; */
-    /* border-color: red; */
     width:50%;
     display: flex;
     flex-direction: row;
@@ -221,4 +202,22 @@ margin-right: 2%;
 
 .resourcesLink{
     margin:20px 0;
+}
+
+
+/* $phone: 480px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1440px; */
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1299px){
+
 }
