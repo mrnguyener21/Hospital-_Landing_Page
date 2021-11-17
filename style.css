@@ -335,7 +335,12 @@ $desktop: 1440px; */
     }
 
     .welcomeSection{
-        /* border:solid; */
-        height:30vh;
+        height:25vh;
+    }
+
+    .welcomeMessage{
+        /* border: solid;
+        border-color: red; */
+        font-size: 25px;
     }
 }
