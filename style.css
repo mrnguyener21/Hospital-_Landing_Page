@@ -343,4 +343,18 @@ $desktop: 1440px; */
         border-color: red; */
         font-size: 25px;
     }
+
+    .cardSection{
+        padding: 5% 0;;
+    }
+
+    .cardDescription{
+        font-size: 15px;
+    }
+
+    .card{
+        /* border:solid; */
+        padding: 0 3%;
+        margin:3% 5%;
+    }
 }
