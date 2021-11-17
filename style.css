@@ -23,6 +23,10 @@ body{
     color: #0061A8;
 }
 
+.navBarLink:hover{
+    cursor:pointer;
+}
+
 .searchContainer{
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +42,10 @@ body{
     width:100%;
 }
 
+.searchImage:hover{
+    cursor:pointer;
+}
+
 .logInContainer{
     width:10%;
     height: 100%;
@@ -50,12 +58,25 @@ body{
     width:50%
 }
 
+.logInImage:hover{
+    cursor:pointer;
+}
+
+.logInText:hover{
+    cursor:pointer;
+}
+
 .welcomeSection{
     margin:0%;
     padding: 0;
     display: flex;
     flex-direction: row;
 }
+
+.welcomeSection:hover{
+    cursor:default;
+}
+
 .messageContainer{
     background-color: #0061A8;
     color: white;
@@ -75,6 +96,7 @@ body{
     width:50%;
     margin: 0;
 }
+
 .cardSection{
     display: flex;
     align-items: center;
@@ -85,6 +107,10 @@ body{
 .cardTitle{
     font-size: 40px;
     color: #0061A8;
+}
+
+.cardTitle:hover{
+    cursor:default;
 }
 
 .cardContainer{
@@ -116,6 +142,10 @@ body{
     margin-bottom: 10%;
 }
 
+.cardDescription:hover{
+    cursor:default;
+}
+
 .cardButton{
     background-color: #0061A8; 
     border: none;
@@ -126,6 +156,10 @@ body{
     display: inline-block;
     font-size: 16px;
     border-radius: 25px;
+}
+
+.cardButton:hover{
+    cursor:pointer;
 }
 
 .resourceSection{
@@ -145,6 +179,7 @@ body{
     display: flex;
     flex-direction: row;
 }
+
 .emailButton{
     background-color: #0061A8;
     border: none;
@@ -158,19 +193,37 @@ body{
 
 }
 
+.emailButton:hover{
+    cursor:pointer;
+}
+
 .emailImage{
 width:5%;
 margin-right: 2%;
 }
+
 .socialMediaContainer{
     height:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.socialMediaTitle:hover{
+    cursor:default;
+}
+
 .socialMediaImage{
     width:5%;
     margin-right:2%;
+}
+
+.socialMediaImage:hover{
+    cursor:pointer;
+}
+
+.disclaimer:hover{
+    cursor:default;
 }
 
 .rightResourceContainer{
@@ -184,27 +237,51 @@ margin-right: 2%;
     margin-top:0;
 }
 
-.servicesTitle{
-    margin-top:0;
-}
-
-.resourcesTitle{
-    margin-top:0;
+.companyTitle:hover{
+    cursor: default;
 }
 
 .companyLink{
     margin:20px 0;
 }
 
+.companyLink:hover{
+    cursor: pointer;
+}
+
+.servicesTitle{
+    margin-top:0;
+}
+
+.servicesTitle:hover{
+    cursor: default;
+}
+
 .servicesLink{
     margin:20px 0;
 }
 
+.servicesLink:hover{
+    cursor: pointer;
+}
+
+.resourcesTitle{
+    margin-top:0;
+}
+.resourcesTitle:hover{
+    cursor: default;
+}
 .resourcesLink{
     margin:20px 0;
 }
 
+.resourcesLink:hover{
+    cursor: pointer;
+}
 
+
+
+/*below is code to make the CSS dynamic*/
 /* $phone: 480px;
 $tablet: 768px;
 $laptop: 1024px;
