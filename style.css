@@ -189,6 +189,7 @@ body{
     text-decoration: none;
     display: flex;
     font-size: 20px;
+    font-weight:bold;
     align-items: center;
 
 }
@@ -345,7 +346,7 @@ $desktop: 1440px; */
     }
 
     .cardSection{
-        padding: 5% 0;;
+        padding: 5% 0;
     }
 
     .cardDescription{
@@ -357,4 +358,31 @@ $desktop: 1440px; */
         padding: 0 3%;
         margin:3% 5%;
     }
+
+    .resourceSection{
+        padding: 2% 8% 5% 8%;
+    }
+
+    .leftResourceContainer{
+        width: 50%;
+    }
+    .emailContainer{
+        /* border:solid; */
+    }
+    .emailButton{
+        font-size: 16px;
+
+    }
+
+    .socialMediaContainer{
+        height:50%;
+    }
+
+    .socialMediaImage{
+        width: 7%;
+    }
+    .rightResourceContainer{
+        /* border: solid; */
+    }
 }
+
