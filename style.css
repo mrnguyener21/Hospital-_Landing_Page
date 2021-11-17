@@ -295,6 +295,47 @@ $desktop: 1440px; */
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1299px){
+@media screen and (min-width: 768px) and (max-width: 1000px){
 
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    .navbar{
+        padding: 1% 5%;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    
+    .searchAndLoginContainer{
+        width:60%;
+    }
+    .navBarLink{
+        font-size: 15px;
+    }
+    
+    .searchContainer{
+        width:25%;
+    }
+    
+    .searchBar{ 
+        width:50%;
+    }
+
+    .searchButton{
+        width:30%;
+    }
+    
+    .searchImage{
+        width:100%;
+    }
+    
+    .logInText{
+        font-size: 15px;
+    }
+
+    .welcomeSection{
+        /* border:solid; */
+        height:30vh;
+    }
 }
