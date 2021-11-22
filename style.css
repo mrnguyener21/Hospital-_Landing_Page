@@ -296,11 +296,103 @@ $desktop: 1440px; */
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .navbar{
+        padding: 1% 5%;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    
+    .searchAndLoginContainer{
+        width:60%;
+    }
+    .navBarLink{
+        font-size: 10px;
+    }
+    
+    .searchContainer{
+        width:30%;
+    }
+    
+    .searchBar{ 
+        width:60%;
+        height: 60%;
+    }
 
+    .searchButton{
+        width:25%;
+        /* height:50%; */
+    }
+    
+    .searchImage{
+        width:90%;
+    }
+    
+    .logInImage{
+        width:50%
+    }
+
+    .logInText{
+        font-size: 12px;
+    }
+
+    .welcomeSection{
+        height:30vh;
+    }
+
+    .welcomeMessage{
+        font-size: 25px;
+    }
+
+    .cardSection{
+        padding: 5% 0;
+    }
+
+    .cardDescription{
+        font-size: 15px;
+    }
+
+    .card{
+        padding: 0 3%;
+        margin:3% 5%;
+    }
+
+    .resourceSection{
+        padding: 2% 8% 5% 8%;
+    }
+
+    .leftResourceContainer{
+        width: 50%;
+    }
+
+    .emailButton{
+        font-size: 16px;
+
+    }
+
+    .socialMediaContainer{
+        height:50%;
+    }
+
+    .socialMediaImage{
+        width: 7%;
+    }
+    
+    .companyContainer{
+        padding-right:10px;
+    }
+
+    .servicesContainer{
+        padding-right:10px;
+    }
+
+    .resourcesContainer{
+        padding-right:10px;
+    }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1400px){
+@media screen and (min-width: 1024px) and (max-width: 1400px){ /* ipad pro vertical */
     .navbar{
         padding: 1% 5%;
     }
@@ -316,11 +408,11 @@ $desktop: 1440px; */
     }
     
     .searchContainer{
-        width:25%;
+        width:20%;
     }
     
     .searchBar{ 
-        width:50%;
+        width:40%;
     }
 
     .searchButton{
@@ -336,12 +428,10 @@ $desktop: 1440px; */
     }
 
     .welcomeSection{
-        height:25vh;
+        height:30vh;
     }
 
     .welcomeMessage{
-        /* border: solid;
-        border-color: red; */
         font-size: 25px;
     }
 
@@ -354,7 +444,6 @@ $desktop: 1440px; */
     }
 
     .card{
-        /* border:solid; */
         padding: 0 3%;
         margin:3% 5%;
     }
@@ -366,9 +455,7 @@ $desktop: 1440px; */
     .leftResourceContainer{
         width: 50%;
     }
-    .emailContainer{
-        /* border:solid; */
-    }
+
     .emailButton{
         font-size: 16px;
 
@@ -381,6 +468,7 @@ $desktop: 1440px; */
     .socialMediaImage{
         width: 7%;
     }
+
     .companyContainer{
         padding-right:10px;
     }
@@ -388,7 +476,7 @@ $desktop: 1440px; */
     .servicesContainer{
         padding-right:10px;
     }
-    
+
     .resourcesContainer{
         padding-right:10px;
     }
