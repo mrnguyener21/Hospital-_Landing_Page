@@ -381,8 +381,16 @@ $desktop: 1440px; */
     .socialMediaImage{
         width: 7%;
     }
-    .rightResourceContainer{
-        /* border: solid; */
+    .companyContainer{
+        padding-right:10px;
+    }
+
+    .servicesContainer{
+        padding-right:10px;
+    }
+    
+    .resourcesContainer{
+        padding-right:10px;
     }
 }
 
