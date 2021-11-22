@@ -349,13 +349,25 @@ $desktop: 1440px; */
         padding: 5% 0;
     }
 
+    .cardTitle{
+        font-size: 25px;
+    }
+
     .cardDescription{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .card{
         padding: 0 3%;
         margin:3% 5%;
+    }
+
+    .cardButton{
+        /* background-color: #0061A8; 
+        border: none; */
+        color: white;
+        padding: 10px 20px;
+        font-size: 12px;
     }
 
     .resourceSection{
