@@ -301,7 +301,7 @@ $desktop: 1440px; */
     }
     
     .logo{
-        font-size: 25px;
+        font-size: 30px;
     }
     .searchAndLoginContainer{
         display:none;
@@ -309,10 +309,40 @@ $desktop: 1440px; */
     
     .hamburgerMenu{
         display: block;
-        /* visibility: visible; */
-        /* border: solid; */
-        /* border-color: red; */
         width: 15%;
+    }
+
+    .messageContainer{
+        width: 100%;
+    }
+
+    .welcomeMessage{
+        font-size: 30px;
+    }
+
+    .welcomeImage{
+        display: none;
+    }
+
+    .cardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardTitle{
+        font-size: 30px;
+    }
+
+    .card{
+        border:solid;
+    }
+
+    .cardImage{
+        width:100%;
+    }
+
+    .cardDescription{
+        display: none;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
