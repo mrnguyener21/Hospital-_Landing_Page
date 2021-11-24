@@ -289,14 +289,19 @@ $laptop: 1024px;
 $desktop: 1440px; */
 
 @media screen and (max-width: 480px){
+    /* im going to need to add a hidden feature to search and login container 
+    after that i need to also unhide "hamburger icon"
+    i'm also going to need to design the hamburger icon menu when clicked on later as well */
+    .searchAndLoginContainer{
+        display:none;
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px){
-
+@media screen and (min-width: 480px) and (max-width: 768px){/*iphone x*/
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){ /*ipad*/
     .navbar{
         padding: 1% 5%;
     }
