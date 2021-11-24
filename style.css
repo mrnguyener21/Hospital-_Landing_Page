@@ -66,6 +66,10 @@ body{
     cursor:pointer;
 }
 
+.hamburgerMenu{
+    display: none;
+}
+
 .welcomeSection{
     margin:0%;
     padding: 0;
@@ -288,17 +292,30 @@ $tablet: 768px;
 $laptop: 1024px;
 $desktop: 1440px; */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){/*iphone x*/
     /* im going to need to add a hidden feature to search and login container 
     after that i need to also unhide "hamburger icon"
     i'm also going to need to design the hamburger icon menu when clicked on later as well */
+    .navbar{
+        padding: 1% 2%;
+    }
+    
+    .logo{
+        font-size: 25px;
+    }
     .searchAndLoginContainer{
         display:none;
-
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px){/*iphone x*/
     }
+    
+    .hamburgerMenu{
+        display: block;
+        /* visibility: visible; */
+        /* border: solid; */
+        /* border-color: red; */
+        width: 15%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){ /*ipad*/
