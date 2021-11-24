@@ -371,37 +371,79 @@ $desktop: 1440px; */
     }
 
     .resourceSection{
-        padding: 2% 8% 5% 8%;
+        padding: 3% 8% 5% 8%;
     }
-
     .leftResourceContainer{
-        width: 50%;
+        /* border: solid; */
+        width: 100%;
     }
-
+    .emailContainer{
+        /* border:solid; */
+        /* align-items: flex-start; */
+    }
     .emailButton{
-        font-size: 16px;
-
+        font-size: 12px;
+        /* border:solid; */
+        padding-top: 0;;
     }
 
-    .socialMediaContainer{
-        height:50%;
+    .socialMediaTitle{
+        font-size: 15px;
     }
 
     .socialMediaImage{
         width: 7%;
     }
     
+    .disclaimer{
+        /* border: solid; */
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .rightResourceContainer{
+        /* border: solid; */
+        width: 100%;
+    }
+
     .companyContainer{
-        padding-right:10px;
+        margin-right:10px;
     }
 
     .servicesContainer{
-        padding-right:10px;
+        margin-right:10px;
     }
 
     .resourcesContainer{
-        padding-right:10px;
+        /* padding-right:10px; */
     }
+
+    .companyTitle{
+        font-size: 15px;
+    }
+
+    .companyLink{
+        font-size: 12px;
+    }
+    
+
+    .servicesTitle{
+        font-size: 15px;
+    }
+
+    .servicesLink{
+        font-size: 12px;
+    }
+    
+
+    .resourcesTitle{
+        font-size: 15px;
+    }
+
+    .resourcesLink{
+        font-size: 12px;
+    }
+    
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px){ /* ipad pro vertical */
