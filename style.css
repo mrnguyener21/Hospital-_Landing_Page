@@ -202,6 +202,25 @@ body{
     cursor:pointer;
 }
 
+.emailButtonMobile{
+    display:none;
+    background-color: #0061A8;
+    border: none;
+    color: white;
+    padding: 15px 25px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 20px;
+    font-weight:bold;
+    align-items: center;
+
+}
+
+.emailButtonMobile:hover{
+    cursor:pointer;
+}
+
 .emailImage{
 width:5%;
 margin-right: 2%;
@@ -323,11 +342,14 @@ $desktop: 1440px; */
     .welcomeImage{
         display: none;
     }
-
+    .cardSection{
+        padding: 0;
+    }
     .cardContainer{
         flex-direction: column;
         align-items: center;
         /* border: solid; */
+        padding: 0;
         /* padding: 0; */
     }
 
@@ -338,6 +360,7 @@ $desktop: 1440px; */
     .card{
         /* border:solid; */
         border-color: red;
+        /* margin: 0 0 100px 0; */
         margin-bottom: 100px;
         width:75%;
         /* height: 100; */
@@ -349,8 +372,35 @@ $desktop: 1440px; */
         /* margin-bottom: 10%; */
     }
 
-    .cardDescription{
-        /* display: none; */
+    .resourceSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid; */
+        padding: 2% 1%;
+        /* margin-bottom: 5%; */
+    }
+
+    .leftResourceContainer{
+        /* border: solid; */
+        width: 95%;
+        margin-bottom: 25%;
+    }
+
+    .emailButton{
+        display: none;
+    }
+
+    .emailButtonMobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .emailImage{
+        width: 25px;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
