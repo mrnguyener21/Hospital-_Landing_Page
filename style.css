@@ -336,9 +336,14 @@ $desktop: 1440px; */
         display: block;
         width: 15%;
     }
+    
+    .hamburgerMenu:hover{
+        cursor: pointer
+    }
 
     .messageContainer{
         width: 100%;
+        margin: 3% 0;
     }
 
     .welcomeMessage{
@@ -440,9 +445,16 @@ $desktop: 1440px; */
         display: none;
     }
 
+    .rightResourceContainer{
+        /* border: solid; */
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
     .bottomDisclaimer{
         display: block;
         text-align: center;
+        padding: 0 2%;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
