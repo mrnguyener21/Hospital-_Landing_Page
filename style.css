@@ -202,6 +202,25 @@ body{
     cursor:pointer;
 }
 
+.emailButtonMobile{
+    display:none;
+    background-color: #0061A8;
+    border: none;
+    color: white;
+    padding: 15px 25px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 20px;
+    font-weight:bold;
+    align-items: center;
+
+}
+
+.emailButtonMobile:hover{
+    cursor:pointer;
+}
+
 .emailImage{
 width:5%;
 margin-right: 2%;
@@ -284,7 +303,13 @@ margin-right: 2%;
     cursor: pointer;
 }
 
+.bottomDisclaimer{
+    display: none;
+}
 
+.bottomDisclaimer:hover{
+    cursor:default;
+}
 
 /*below is code to make the CSS dynamic*/
 /* $phone: 480px;
@@ -301,7 +326,7 @@ $desktop: 1440px; */
     }
     
     .logo{
-        font-size: 30px;
+        font-size: 25px;
     }
     .searchAndLoginContainer{
         display:none;
@@ -311,9 +336,14 @@ $desktop: 1440px; */
         display: block;
         width: 15%;
     }
+    
+    .hamburgerMenu:hover{
+        cursor: pointer
+    }
 
     .messageContainer{
         width: 100%;
+        margin: 3% 0;
     }
 
     .welcomeMessage{
@@ -323,10 +353,15 @@ $desktop: 1440px; */
     .welcomeImage{
         display: none;
     }
-
+    .cardSection{
+        padding: 0;
+    }
     .cardContainer{
         flex-direction: column;
         align-items: center;
+        /* border: solid; */
+        padding: 0;
+        /* padding: 0; */
     }
 
     .cardTitle{
@@ -334,15 +369,92 @@ $desktop: 1440px; */
     }
 
     .card{
-        border:solid;
+        /* border:solid; */
+        border-color: red;
+        /* margin: 0 0 100px 0; */
+        margin-bottom: 100px;
+        width:75%;
+        /* height: 100; */
+        justify-content: space-between;
     }
 
     .cardImage{
-        width:100%;
+        width:200px;
+        /* margin-bottom: 10%; */
     }
 
-    .cardDescription{
+    .resourceSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid; */
+        padding: 2% 1%;
+        /* margin-bottom: 5%; */
+    }
+
+    .leftResourceContainer{
+        /* border: solid; */
+        width: 95%;
+        margin-bottom: 10%;
+    }
+
+    .emailButton{
         display: none;
+    }
+
+    .emailButtonMobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        width: 100%;
+        /* border: solid; */
+        padding:10% 0 5% 0;
+    }
+
+    .emailImage{
+        width: 25px;
+    }
+
+    .socialMediaContainer{
+        /* border: solid; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialMediaTitle{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .socialMediaImageContainer{
+        /* border: solid; */
+        display: flex;
+        justify-content: space-around;
+
+        width: 75%;
+        margin-bottom: 10%;
+
+    }
+
+    .socialMediaImage{
+        width: 40px;
+    }
+
+    .disclaimer{
+        display: none;
+    }
+
+    .rightResourceContainer{
+        /* border: solid; */
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .bottomDisclaimer{
+        display: block;
+        text-align: center;
+        padding: 0 2%;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
