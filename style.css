@@ -303,7 +303,13 @@ margin-right: 2%;
     cursor: pointer;
 }
 
+.bottomDisclaimer{
+    display: none;
+}
 
+.bottomDisclaimer:hover{
+    cursor:default;
+}
 
 /*below is code to make the CSS dynamic*/
 /* $phone: 480px;
@@ -384,7 +390,7 @@ $desktop: 1440px; */
     .leftResourceContainer{
         /* border: solid; */
         width: 95%;
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
 
     .emailButton{
@@ -428,6 +434,15 @@ $desktop: 1440px; */
 
     .socialMediaImage{
         width: 40px;
+    }
+
+    .disclaimer{
+        display: none;
+    }
+
+    .bottomDisclaimer{
+        display: block;
+        text-align: center;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
